@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.workout-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.workout-list li {
+  border-bottom: 1px solid #ccc;
+  padding: 1em;
+}
+
+.workout-list li:last-child {
+  border-bottom: none;
+}
+
+.workout-title {
+  font-size: 1.2em;
+}
+
+.workout-details {
+  font-size: 1em;
+}
+
+.workout-time {
+  float: right;
+}
